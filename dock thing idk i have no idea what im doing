@@ -1,0 +1,6 @@
+docker build -t launchpad:master
+docker run \
+  --name launchpad \
+  --detach \
+  -p 3000:3000 \
+  launchpad:master
